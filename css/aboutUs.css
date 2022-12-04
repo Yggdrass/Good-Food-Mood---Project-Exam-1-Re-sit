@@ -1,0 +1,36 @@
+/*ID's*/
+
+
+#heading_1 {
+    font-size: 4.5rem;
+    padding: 4rem 0 3.5rem 0;
+    text-align: center;
+}
+
+/*SCREEN SIZES*/
+
+
+@media (min-width: 1200px) {
+    footer {
+        flex-direction: column;
+    }
+
+    
+    #heading_1 {
+        font-size: 8rem;
+    }
+
+    main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width: 1920px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+    }
+}

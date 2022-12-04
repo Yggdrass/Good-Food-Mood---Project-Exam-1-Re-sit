@@ -1,0 +1,167 @@
+
+html {
+    margin: 0;
+    max-width: 100vw;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+button {
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    max-width: 40ch;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    background-color: var(--main_green);
+    color: var(--white);
+    border: 3px solid var(--black);
+    border-radius: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+div {
+    max-width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main_yellow);
+    align-items: center;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+
+
+h1 {
+    text-transform: uppercase;
+    max-width: 40ch;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+header {
+    background-color: var(--yellow_header);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    padding: 1rem 0;
+    max-width: 100%;
+}
+
+hr {
+    border: 5px solid var(--main_yellow);
+    max-width: 90%;
+    margin: 3rem 3rem;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7em;
+    margin-bottom: 3rem;
+}
+
+nav a {
+    padding: 0.5rem;
+    border-radius: 5%;
+}
+
+
+p {
+    font-size: 2rem;
+    max-width: 40ch;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/*CLASSES*/
+
+.heroImage {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.heroTitle {
+    background-color: var(--main_green);
+    max-width: 100%;
+}
+
+
+.logo {
+    max-width: 6em;
+    margin: 0 auto;
+}
+
+.mainNav {
+    text-transform: uppercase;
+    list-style: none;
+    display: none;
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.section {
+    background: var(--white);
+}
+
+
+/*ID's*/
+
+#active {
+    background-color: var(--main_blue);
+}
+
+#contactUsInfoFooter {
+    bottom: 0;
+  }
+
+
+
+/*SCREEN SIZES*/
+
+
+@media (min-width: 300px) {
+    header {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .mainNav {
+        display: inline-flex;
+    }
+}
+
+@media (min-width: 1200px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+    }
+}
+

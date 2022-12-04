@@ -1,0 +1,17 @@
+:root {
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    --black: #000;
+    --main_blue: #2AD1C7;
+    --box-shadow: rgba(0, 0, 0, 0.24);
+    --main_green: #2FE053;
+    --main_green_transparent: hsla(146, 100%, 25%, 0.815);
+    --white: #fff;
+    --white_header: rgba(255, 255, 255, 0.808); 
+    --main_yellow: #F5EA16;
+    --yellow_header: rgba(245, 234, 22, 0.801);
+    --red: #cf0000;
+    box-sizing: border-box;
+
+    /*Font Family For Logo and Headings: 'Josefin Sans', sans-serif;*/
+}

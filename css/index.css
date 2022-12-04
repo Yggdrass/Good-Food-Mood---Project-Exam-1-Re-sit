@@ -1,0 +1,86 @@
+/*MAIN CLASSES*/
+
+
+button {
+    margin: 0 4rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    max-width: 40ch;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+/*CLASSES*/
+
+.heroImage {
+    padding-bottom: 3rem;
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+
+
+/*ID's*/
+
+
+#heading_1 {
+    font-size: 4rem;
+    padding: 2rem 2rem 0 1rem;
+}
+
+#heading_2 {
+    font-size: 3rem;
+    text-align: right;
+    padding: 2rem 1rem 2rem 0;
+}
+
+
+
+
+/*SCREEN SIZES*/
+
+
+@media (min-width: 1200px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .section {
+        flex-direction: row;
+    }
+
+    .heroTitle {
+        margin: 0 auto;
+    }
+
+    #heading_1 {
+        font-size: 8rem;
+    }
+
+    #heading_2 {
+        font-size: 6rem;
+    }
+
+    button {
+        margin: 0 20rem;
+        font-size: 5.5rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    footer {
+        flex-direction: row;
+        align-content: center;
+        justify-items: space-around;
+    }
+}

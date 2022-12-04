@@ -1,0 +1,110 @@
+/*MAIN CLASSES*/
+
+h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+/*CLASSES*/
+
+
+.recipeThumbnail {
+  background-color: var(--main_blue);
+  max-width: 20em;
+  border-radius: 0.5em;
+  border: 2px solid var(--black);
+  font-family: "Lucida console", Arial, sans-serif;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+
+.recipesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.thumbnailImage {
+  max-width: 15em;
+}
+
+.thumbnailTitle {
+  font-size: 2.5rem;
+}
+
+
+/*ID's*/
+
+
+#search {
+  border: 2px solid var(--black);
+  max-width: 13em;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+
+/*SCREEN SIZES*/
+
+  @media (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    form {
+      align-items: center;
+    }
+    footer {
+      flex-direction: column;
+  }
+    #search {
+      font-size: 3rem;
+    }
+}
+
+
+
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 5rem;
+    }
+
+    #search {
+      align-self: center;
+    }
+
+    .resultsContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1920px) {
+  footer {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1rem 3rem;
+  }
+}
